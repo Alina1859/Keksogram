@@ -21,8 +21,8 @@
   * Fetch API
   * async / await
   * ES6 modules
-  * Pristine
-  * noUiSlider
+  * Pristine library
+  * noUiSlider library
   * Debounce
 
 [LINK TO THE PROJECT](https://alina1859.github.io/Keksogram/index.html)
