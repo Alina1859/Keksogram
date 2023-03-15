@@ -25,7 +25,7 @@
   * noUiSlider
   * Debounce
 
-[LINK](https://alina1859.github.io/keksogram/index.html)
+[LINK TO THE PROJECT](https://alina1859.github.io/keksogram/index.html)
 
 <a href="https://htmlacademy.ru/intensive/javascript"><img align="left" width="50" height="50" alt="HTML Academy" src="https://up.htmlacademy.ru/static/img/intensive/javascript/logo-for-github-2.png"></a>
 
