@@ -30,7 +30,6 @@ const showModal = () => {
   overlay.classList.remove('hidden');
   body.classList.add('modal-open');
   document.addEventListener('keydown', onEscKeyDown);
-  body.addEventListener('click', onBodyClick);
 };
 
 const hideModal = () => {
@@ -41,17 +40,7 @@ const hideModal = () => {
   overlay.classList.add('hidden');
   body.classList.remove('modal-open');
   document.removeEventListener('keydown', onEscKeyDown);
-  body.removeEventListener('click', onBodyClick);
 };
-
-function onBodyClick(evt) {
-  if (
-    evt.target.closest('.img-upload__preview')
-  ) {
-    return;
-  }
-  hideModal();
-}
 
 const isTextFieldFocused = () =>
   document.activeElement === hashtagField ||
